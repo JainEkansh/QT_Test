@@ -1,0 +1,119 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri May 28 17:06:11 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>70 seconds (70409 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Com.Test.Ekansh.Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Com.Test.Ekansh.Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Launch and login into application", "Update Personal Information"<br/>
+<a href="#Output-1967496309" onClick='toggleBox("Output-1967496309", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1967496309" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1967496309">
+**[INFO]: Application URL :: http://automationpractice.com<br/>
+<div "result">Launch the application (PASSED : 19s)</div><br/>
+Clicked on Sign In button<br/>
+<div "result">I click on sign in button (PASSED : 15s)</div><br/>
+Username entered<br/>
+Password entered<br/>
+Clicked on sign in button to login into the application<br/>
+<div "result">I enter username and password and login to application (PASSED : 13s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>48</td>
+<td>Com.Test.Ekansh.Runner.TestRunner@14acaea5</td></tr>
+<tr>
+<td title='Com.Test.Ekansh.Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Com.Test.Ekansh.Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User should be able to update first name in My Account", "Update Personal Information"<br/>
+<a href="#Output-278476563" onClick='toggleBox("Output-278476563", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-278476563" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-278476563">
+Clicked on My Personal Information button<br/>
+<div "result">I click on my personal information button (PASSED : 8s)</div><br/>
+First name is entered<br/>
+<div "result">I enter first name EkanshNameChanged (PASSED : 0s)</div><br/>
+Current pwd has been entered<br/>
+<div "result">I enter current password (PASSED : 0s)</div><br/>
+Clicked on save button<br/>
+<div "result">I click on save button (PASSED : 7s)</div><br/>
+**[ASSERT PASSED]: Personal info save success message is displayed<br/>
+<div "result">Verify personal info save success message is displayed (PASSED : 0s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>16</td>
+<td>Com.Test.Ekansh.Runner.TestRunner@14acaea5</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[*************************************** Session Started ***************************************]]>
+    </line>
+    <line>
+      <![CDATA[**[INFO]: Application URL :: http://automationpractice.com]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Launch the application (PASSED : 19s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Sign In button]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click on sign in button (PASSED : 15s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[Username entered]]>
+    </line>
+    <line>
+      <![CDATA[Password entered]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on sign in button to login into the application]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I enter username and password and login to application (PASSED : 13s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on My Personal Information button]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click on my personal information button (PASSED : 8s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[First name is entered]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I enter first name EkanshNameChanged (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[Current pwd has been entered]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I enter current password (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on save button]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click on save button (PASSED : 7s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[**[ASSERT PASSED]: Personal info save success message is displayed]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Verify personal info save success message is displayed (PASSED : 0s)</div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="70409" started-at="2021-05-28T11:36:11Z" finished-at="2021-05-28T11:37:22Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Com.Test.Ekansh.Runner.TestRunner@14acaea5]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="70409" started-at="2021-05-28T11:36:11Z" finished-at="2021-05-28T11:37:22Z">
+      <class name="Com.Test.Ekansh.Runner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Com.Test.Ekansh.Runner.TestRunner@14acaea5]" name="setUpClass" is-config="true" duration-ms="450" started-at="2021-05-28T17:06:11Z" finished-at="2021-05-28T17:06:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="intiateSession()[pri:0, instance:Com.Test.Ekansh.Runner.TestRunner@14acaea5]" name="intiateSession" is-config="true" duration-ms="4809" started-at="2021-05-28T17:06:12Z" finished-at="2021-05-28T17:06:17Z">
+          <reporter-output>
+            <line>
+              <![CDATA[*************************************** Session Started ***************************************]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- intiateSession -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Com.Test.Ekansh.Runner.TestRunner@14acaea5]" name="runScenario" duration-ms="48671" started-at="2021-05-28T17:06:17Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-28T17:07:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Launch and login into application"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Personal Information"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[**[INFO]: Application URL :: http://automationpractice.com]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Launch the application (PASSED : 19s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Sign In button]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click on sign in button (PASSED : 15s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[Username entered]]>
+            </line>
+            <line>
+              <![CDATA[Password entered]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on sign in button to login into the application]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I enter username and password and login to application (PASSED : 13s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Com.Test.Ekansh.Runner.TestRunner@14acaea5]" name="runScenario" duration-ms="16339" started-at="2021-05-28T17:07:05Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-28T17:07:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User should be able to update first name in My Account"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Personal Information"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on My Personal Information button]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click on my personal information button (PASSED : 8s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[First name is entered]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I enter first name EkanshNameChanged (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[Current pwd has been entered]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I enter current password (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on save button]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click on save button (PASSED : 7s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[**[ASSERT PASSED]: Personal info save success message is displayed]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Verify personal info save success message is displayed (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Com.Test.Ekansh.Runner.TestRunner@14acaea5]" name="tearDownClass" is-config="true" duration-ms="6" started-at="2021-05-28T17:07:22Z" finished-at="2021-05-28T17:07:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Com.Test.Ekansh.Runner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
